@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>exercice-html-basic</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./img/logoFF1.jpg" alt="Logo" title="Logo">
+            <ul>
+                <li>
+                    <a href="#">Accueil</a>
+                </li>
+                <li>
+                    <a href="#title_service">Nos services</a>
+                </li>
+                <li>
+                    <a href="#title_Nos_produite">Nos produits</a>
+                </li>
+                <li>
+                    <a href="#title_agenda">Agenda</a>
+                </li>
+                <li>
+                    <a href="#don">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Slideshow container -->
+    <section class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./img/Slideimg/img1.jpg" style="width:100%">
+            <article class="text">
+                <p>L'opération Faim et Froid est au service des enfants et familles en difficultés.</p><a href="#don"><img src="./img/bouton-faire-un-don.png" alt=""></a>
+            </article>
+        </div>
+    
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./img/Slideimg/img2.jpg" style="width:100%">
+            <article class="text">
+                <p>L'opération Faim et Froid est au service des enfants et familles en difficultés.</p><a href="#"><img src="./img/bouton-faire-un-don.png" alt=""></a>
+            </article>
+        </div>
+    
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./img/Slideimg/img1.jpg" style="width:100%">
+            <article class="text">
+                <p>L'opération Faim et Froid est au service des enfants et familles en difficultés.</p><a href="#"><img src="./img/bouton-faire-un-don.png" alt=""></a>
+            </article>
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+    <br>
+    
+    <!-- The dots/circles -->
+    <section style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </section>
+    
+        <h3 id="title_service" class="title">Nos services</h3>
+    
+    
+        <section id="service_social"  class="state" style="display: block;">
+            <div class="service_social">
+                <img src="./img/DSCN1813.JPG" alt="" width="400px">
+            </div>
+            <article class="service_social">
+                <p>
+                    Otia nuper gravitate ignea frigida illas onerosior boreas otia parte tuti convexi origine primaque animalibus otia summaque premuntur sublime ut rectumque iudicis nullus septemque arce otia fratrum nullus legebantur caelo sua campos diremit permisit terras regna dextra mare supplex fratrum capacius modo unda nullaque lumina tempora subdita ambitae liberioris sinistra vis proximus divino longo rapidisque totidem diremit piscibus altae erectos nisi locavit locis frigore ventis.
+                </p>
+            </article>
+        </section>
+        <section id="epicerie_social" class="state"  style="display: none;">
+            <div class="epicerie_social">
+                <img src="./img/DSCN1836.JPG" alt="" width="400px">
+            </div>
+            <article class="epicerie_social">
+                <p>
+                    Otia nuper gravitate ignea frigida illas onerosior boreas otia parte tuti convexi origine primaque animalibus otia summaque premuntur sublime ut rectumque iudicis nullus septemque arce otia fratrum nullus legebantur caelo sua campos diremit permisit terras regna dextra mare supplex fratrum capacius modo unda nullaque lumina tempora subdita ambitae liberioris sinistra vis proximus divino longo rapidisque totidem diremit piscibus altae erectos nisi locavit locis frigore ventis.
+                </p>
+            </article>
+        </section>
+        <section id="ecole_des_devoirs_social" class="state"  style="display: none;">
+            <div class="ecole_des_devoirs_social">
+                <img src="./img/classroom.jpg" alt="" width="400px">
+            </div>
+            <article class="ecole_des_devoirs_social">
+                <p>
+                    Otia nuper gravitate ignea frigida illas onerosior boreas otia parte tuti convexi origine primaque animalibus otia summaque premuntur sublime ut rectumque iudicis nullus septemque arce otia fratrum nullus legebantur caelo sua campos diremit permisit terras regna dextra mare supplex fratrum capacius modo unda nullaque lumina tempora subdita ambitae liberioris sinistra vis proximus divino longo rapidisque totidem diremit piscibus altae erectos nisi locavit locis frigore ventis.
+                </p>
+            </article>
+        </section>
+        <section id="logisitique_social" class="state"  style="display: none;">
+            <div class="logisitique_social">
+                <img src="./img/DSCN1898.JPG" alt="" width="400px">
+            </div>
+            <article class="logisitique_social">
+                <p>
+                    Otia nuper gravitate ignea frigida illas onerosior boreas otia parte tuti convexi origine primaque animalibus otia summaque premuntur sublime ut rectumque iudicis nullus septemque arce otia fratrum nullus legebantur caelo sua campos diremit permisit terras regna dextra mare supplex fratrum capacius modo unda nullaque lumina tempora subdita ambitae liberioris sinistra vis proximus divino longo rapidisque totidem diremit piscibus altae erectos nisi locavit locis frigore ventis.
+                </p>
+            </article>
+        </section>
+        <section id="boutiques_social" class="state"  style="display: none;">
+            <div class="boutiques_social">
+                <img src="./img/boutiques.png" alt="" width="400px">
+            </div>
+            <article class="boutiques_social">
+                <p>
+                    Otia nuper gravitate ignea frigida illas onerosior boreas otia parte tuti convexi origine primaque animalibus otia summaque premuntur sublime ut rectumque iudicis nullus septemque arce otia fratrum nullus legebantur caelo sua campos diremit permisit terras regna dextra mare supplex fratrum capacius modo unda nullaque lumina tempora subdita ambitae liberioris sinistra vis proximus divino longo rapidisque totidem diremit piscibus altae erectos nisi locavit locis frigore ventis.
+                </p>
+            </article>
+        </section>
+
+        <section class="row">
+            <article id="service_menu" >
+                <ul>
+                    <li>
+                        <p id="service" onclick="showDiv(this.id);">Service social</p> 
+                    </li>
+                    <li>
+                        <p id="epicerie" onclick="showDiv(this.id);">Epicerie social</p>
+                    </li>
+                    <li>
+                        <p id="ecole_des_devoirs" onclick="showDiv(this.id);">Ecole des devoirs</p>
+                    </li>
+                </ul>
+            </article>
+            <article id="service_menu" >
+                <ul>
+                    <li>
+                        <p id="logisitique" onclick="showDiv(this.id);">Logisitique</p>
+                    </li>
+                    <li>
+                        <p id="boutiques" onclick="showDiv(this.id);">Boutiques</p>
+                        
+                    </li>
+                    <li>
+                        Maison de quartier
+                    </li>
+                </ul>
+            </article>
+            <article id="service_menu">
+                <ul>
+                    <li>
+                        Buffet de la gare
+                    </li>
+                    <li>
+                        Relais Ravel - atelier velo
+                    </li>
+                    <li>
+                        Meubles et brocante
+                    </li>
+                </ul>
+            </article>
+            <article id="service_menu">
+                <ul>
+                    <li>
+                        Insertion sociale
+                    </li>
+                    <li>
+                        Services administrative
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <h3 id="title_Nos_produite" class="title">Nos produite</h3>
+        <div class="prod">
+            <section id="prod">
+                <img src="./img/767.jpg" alt="">
+                <ul>
+                    <li>
+                        Otia nuper gravitate
+                    </li>
+                    <li>
+                        ignea frigida illas onerosior
+                    </li>
+                    <li>
+                        boreas otia parte tuti
+                    </li>
+                </ul>                        
+            </section>
+            <section id="prod">
+                <img src="./img/produit5.jpg" alt="">
+                <ul>
+                    <li>
+                        Otia nuper gravitate
+                    </li>
+                    <li>
+                        ignea frigida illas onerosior
+                    </li>
+                    <li>
+                        boreas otia parte tuti
+                    </li>
+                </ul>                        
+            </section>
+            <section id="prod">
+                <img src="./img/produit6.jpg" alt="">
+                <ul>
+                    <li>
+                        Otia nuper gravitate
+                    </li>
+                    <li>
+                        ignea frigida illas onerosior
+                    </li>
+                    <li>
+                        boreas otia parte tuti
+                    </li>
+                </ul>                        
+            </section>
+            <section id="prod">
+                <img src="./img/produit7.jpg" alt="">
+                <ul>
+                    <li>
+                        Otia nuper gravitate
+                    </li>
+                    <li>
+                        ignea frigida illas onerosior
+                    </li>
+                    <li>
+                        boreas otia parte tuti
+                    </li>
+                </ul>                        
+            </section>
+            <section id="prod">
+                <img src="./img/produit8.jpg" alt="">
+                <ul>
+                    <li>
+                        Otia nuper gravitate
+                    </li>
+                    <li>
+                        ignea frigida illas onerosior
+                    </li>
+                    <li>
+                        boreas otia parte tuti
+                    </li>
+                </ul>                        
+            </section>
+        </div>    
+            <h3 id="title_agenda" class="title">Agenda</h3>
+            <section id="agenda">
+                <ul>
+                    <li>
+                        <input type="checkbox"> - ignea frigida illas onerosior
+                    </li>
+                    <li>
+                        <input type="checkbox"> - ignea frigida illas onerosior
+                    </li>
+                    <li>
+                        <input type="checkbox"> - ignea frigida illas onerosior
+                    </li>
+                    <li>
+                        <input type="checkbox"> - ignea frigida illas onerosior
+                    </li>
+                </ul>
+            </section>
+            <h3 id="partenaires" class="title">Nous remercions nos partenaires</h3>
+            <section>
+                <img id="imgPar" src="./img/par.png" alt="">
+                <img id="imgPar" src="./img/don-association.png" alt="">
+                <img id="faireDon" src="./img/bouton-faire-un-don.png" alt="">
+                <article id="don">
+                    <p>Compte dons ING  : BE44 6302 7026 0045</p> 
+                    <p>Compte dons CBC : BE61 7320 4117 3117</p>
+                </article>
+            </section>
+            <footer>
+                <p>Rue du Coquelet, 104 - 6060 Gilly - Tél : 071 48 67 47 ou 07 41 81 64 - E-mail : accueil@faimetfroid.be ou secretariat@faimetfroid.be</p>
+                <img src="./img/footer.png" alt="">
+            </footer>
+
+        
+    
+
+<script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function showDiv(clicked_id) {
+    var theId = clicked_id
+    
+    theId = theId + "_social";
+    console.log("the id is :" + theId);
+    let x = document.getElementById(theId);
+    let y = document.getElementsByClassName("state");
+
+    
+    
+for (let item of y) {
+    item.style.display = "none";
+}
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+
+
+    }
+
+}
+    // Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+    
+    // Thumbnail image controls
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+    
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 7000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
