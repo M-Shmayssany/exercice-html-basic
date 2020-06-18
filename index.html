@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="test website for faimetfroid.be">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>exercice-html-basic</title>
@@ -35,25 +36,25 @@
     <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
-            <img src="./img/Slideimg/img1.jpg" style="width:100%">
+            <img src="./img/Slideimg/img1.jpg" alt="slide image" style="width:100%">
             <article class="text">
-                <p>L'opération Faim et Froid est au service des enfants et familles en difficultés.</p><a href="#don"><img src="./img/bouton-faire-un-don.png" alt=""></a>
+                <p>L'opération Faim et Froid est au service des enfants et familles en difficultés.</p><a href="#don"><img src="./img/bouton-faire-un-don.png" alt="don"></a>
             </article>
         </div>
     
         <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-            <img src="./img/Slideimg/img2.jpg" style="width:100%">
+            <img src="./img/Slideimg/img2.jpg" alt="slide image" style="width:100%">
             <article class="text">
-                <p>L'opération Faim et Froid est au service des enfants et familles en difficultés.</p><a href="#"><img src="./img/bouton-faire-un-don.png" alt=""></a>
+                <p>L'opération Faim et Froid est au service des enfants et familles en difficultés.</p><a href="#"><img src="./img/bouton-faire-un-don.png" alt="don"></a>
             </article>
         </div>
     
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="./img/Slideimg/img1.jpg" style="width:100%">
+            <img src="./img/Slideimg/img1.jpg" alt="slide image" style="width:100%">
             <article class="text">
-                <p>L'opération Faim et Froid est au service des enfants et familles en difficultés.</p><a href="#"><img src="./img/bouton-faire-un-don.png" alt=""></a>
+                <p>L'opération Faim et Froid est au service des enfants et familles en difficultés.</p><a href="#"><img src="./img/bouton-faire-un-don.png" alt="don"></a>
             </article>
         </div>
     
@@ -75,7 +76,7 @@
     
         <section id="service_social"  class="state" style="display: block;">
             <div class="service_social">
-                <img src="./img/DSCN1813.JPG" alt="" width="400px">
+                <img src="./img/DSCN1813.JPG" alt="image" width="400px">
             </div>
             <article class="service_social">
                 <p>
@@ -85,7 +86,7 @@
         </section>
         <section id="epicerie_social" class="state"  style="display: none;">
             <div class="epicerie_social">
-                <img src="./img/DSCN1836.JPG" alt="" width="400px">
+                <img src="./img/DSCN1836.JPG" alt="image" width="400px">
             </div>
             <article class="epicerie_social">
                 <p>
@@ -95,7 +96,7 @@
         </section>
         <section id="ecole_des_devoirs_social" class="state"  style="display: none;">
             <div class="ecole_des_devoirs_social">
-                <img src="./img/classroom.jpg" alt="" width="400px">
+                <img src="./img/classroom.jpg" alt="services" width="400px">
             </div>
             <article class="ecole_des_devoirs_social">
                 <p>
@@ -105,7 +106,7 @@
         </section>
         <section id="logisitique_social" class="state"  style="display: none;">
             <div class="logisitique_social">
-                <img src="./img/DSCN1898.JPG" alt="" width="400px">
+                <img src="./img/DSCN1898.JPG" alt="service" width="400px">
             </div>
             <article class="logisitique_social">
                 <p>
@@ -115,7 +116,7 @@
         </section>
         <section id="boutiques_social" class="state"  style="display: none;">
             <div class="boutiques_social">
-                <img src="./img/boutiques.png" alt="" width="400px">
+                <img src="./img/boutiques.png" alt="services" width="400px">
             </div>
             <article class="boutiques_social">
                 <p>
@@ -125,7 +126,7 @@
         </section>
 
         <section class="row">
-            <article id="service_menu" >
+            <article class="service_menu" >
                 <ul>
                     <li>
                         <p id="service" onclick="showDiv(this.id);">Service social</p> 
@@ -138,7 +139,7 @@
                     </li>
                 </ul>
             </article>
-            <article id="service_menu" >
+            <article class="service_menu" >
                 <ul>
                     <li>
                         <p id="logisitique" onclick="showDiv(this.id);">Logisitique</p>
@@ -148,38 +149,38 @@
                         
                     </li>
                     <li>
-                        Maison de quartier
+                        <p>Maison de quartier</p> 
                     </li>
                 </ul>
             </article>
-            <article id="service_menu">
+            <article class="service_menu">
                 <ul>
                     <li>
-                        Buffet de la gare
+                        <p>Buffet de la gare</p> 
                     </li>
                     <li>
-                        Relais Ravel - atelier velo
+                        <p>Relais Ravel - atelier velo</p> 
                     </li>
                     <li>
-                        Meubles et brocante
+                        <p>Meubles et brocante</p> 
                     </li>
                 </ul>
             </article>
-            <article id="service_menu">
+            <article class="service_menu">
                 <ul>
                     <li>
-                        Insertion sociale
+                        <p>Insertion sociale</p> 
                     </li>
                     <li>
-                        Services administrative
+                        <p>Services administrative</p> 
                     </li>
                 </ul>
             </article>
         </section>
         <h3 id="title_Nos_produite" class="title">Nos produite</h3>
         <div class="prod">
-            <section id="prod">
-                <img src="./img/767.jpg" alt="">
+            <section >
+                <img src="./img/767.jpg" alt="Produit">
                 <ul>
                     <li>
                         Otia nuper gravitate
@@ -192,8 +193,8 @@
                     </li>
                 </ul>                        
             </section>
-            <section id="prod">
-                <img src="./img/produit5.jpg" alt="">
+            <section >
+                <img src="./img/produit5.jpg" alt="Produit">
                 <ul>
                     <li>
                         Otia nuper gravitate
@@ -206,8 +207,8 @@
                     </li>
                 </ul>                        
             </section>
-            <section id="prod">
-                <img src="./img/produit6.jpg" alt="">
+            <section >
+                <img src="./img/produit6.jpg" alt="Produit">
                 <ul>
                     <li>
                         Otia nuper gravitate
@@ -220,8 +221,8 @@
                     </li>
                 </ul>                        
             </section>
-            <section id="prod">
-                <img src="./img/produit7.jpg" alt="">
+            <section >
+                <img src="./img/produit7.jpg" alt="Produit">
                 <ul>
                     <li>
                         Otia nuper gravitate
@@ -234,8 +235,8 @@
                     </li>
                 </ul>                        
             </section>
-            <section id="prod">
-                <img src="./img/produit8.jpg" alt="">
+            <section >
+                <img src="./img/produit8.jpg" alt="Produit">
                 <ul>
                     <li>
                         Otia nuper gravitate
@@ -253,24 +254,28 @@
             <section id="agenda">
                 <ul>
                     <li>
-                        <input type="checkbox"> - ignea frigida illas onerosior
+                        <label for="A">done</label>
+                        <input id="A" type="checkbox"> - ignea frigida illas onerosior
                     </li>
                     <li>
-                        <input type="checkbox"> - ignea frigida illas onerosior
+                        <label for="B">done</label>
+                        <input id="B" type="checkbox"> - ignea frigida illas onerosior
                     </li>
                     <li>
-                        <input type="checkbox"> - ignea frigida illas onerosior
+                        <label for="C">done</label>
+                        <input id="C" type="checkbox"> - ignea frigida illas onerosior
                     </li>
                     <li>
-                        <input type="checkbox"> - ignea frigida illas onerosior
+                        <label for="D">done</label>
+                        <input id="D" type="checkbox"> - ignea frigida illas onerosior
                     </li>
                 </ul>
             </section>
             <h3 id="partenaires" class="title">Nous remercions nos partenaires</h3>
             <section>
-                <img id="imgPar" src="./img/par.png" alt="">
-                <img id="imgPar" src="./img/don-association.png" alt="">
-                <img id="faireDon" src="./img/bouton-faire-un-don.png" alt="">
+                <img class="partenaires" src="./img/par.png" alt="partenaires">
+                <img id="merci" src="./img/don-association.png" alt="merci">
+                <img id="faireDon" src="./img/bouton-faire-un-don.png" alt="don">
                 <article id="don">
                     <p>Compte dons ING  : BE44 6302 7026 0045</p> 
                     <p>Compte dons CBC : BE61 7320 4117 3117</p>
@@ -278,7 +283,7 @@
             </section>
             <footer>
                 <p>Rue du Coquelet, 104 - 6060 Gilly - Tél : 071 48 67 47 ou 07 41 81 64 - E-mail : accueil@faimetfroid.be ou secretariat@faimetfroid.be</p>
-                <img src="./img/footer.png" alt="">
+                <img src="./img/footer.png" alt="footer">
             </footer>
 
         

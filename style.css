@@ -37,19 +37,20 @@ nav ul li {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: #545454;
+    color: #F55A08;
     padding-top: 20px;
 }
 
 nav ul li:hover {
-    background: #E7E7E7;
+    background: #CAB8D1;
     transition: 0.5s;
 }
 
 nav ul li a {
     text-decoration: none;
     font-size: 1.5vw;
-    color: #545454;
+    font-weight: bolder;
+    color: #db4d00;
 }
 
 /* Slideshow container */
@@ -74,7 +75,7 @@ nav ul li a {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
+    color: #ADF542;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -96,8 +97,9 @@ nav ul li a {
   /* Caption text */
 .text {
     position: absolute;
-    color: #f2f2f2;
+    color: #ffffff;
     font-size: 1em;
+    font-weight: 700;
     text-align: center;
     margin-left: 35vw;
     bottom: 15%;
@@ -162,9 +164,9 @@ nav ul li a {
     padding-bottom: 50px;
     text-align: center;
     font-family: 'Patrick Hand', cursive;
-    font-weight: 200;
+    font-weight: 800;
     font-size: 32px;
-    color: #009900;
+    color: #F55A08;
 }
 
 
@@ -188,7 +190,7 @@ nav ul li a {
 }
 
 .state {
-    background-color: rgba(212, 212, 212, 0.753);
+    background-color: #adf542c4;
     width: 100%;
     height: 350px;
 }
@@ -200,26 +202,26 @@ nav ul li a {
     display: table;
     clear: both;
 }
-#service_menu {
-    background-color: #ff9900cc;
+.service_menu {
+    background-color: #f55b08d0;
     width: 100%;
     height: 200px;
 }
 
-#service_menu ul {
+.service_menu ul {
     list-style: none;
 }
-#service_menu {
+.service_menu {
     float: left;
     width: 25%;
-    line-height: 2;
-    font-size: 1.5vw;
+    line-height: 1;
+    font-size: 1.4vw;
 }
-#service_menu ul li {
+.service_menu ul li {
     width: 70% ;
 }
 
-#service_menu ul li:hover {
+.service_menu ul li:hover {
     background-color: black;
     color: honeydew;
 }
@@ -231,17 +233,17 @@ nav ul li a {
     clear: both;
 }
 
-#prod {
+.prod section {
     width: 18.5vw;
     height: 45vh;
     text-align: center;
-    background-color: rgba(212, 212, 212, 0.753);
+    background-color: #adf542c4;
 }
-#prod img {
+.prod section img {
     padding-top: 2vh;
     width: 12.5vw;
 }
-#prod ul  {
+.prod section ul  {
     text-align: left;
     font-size: 0.8em;
     padding-top: 2vh;
@@ -256,20 +258,26 @@ nav ul li a {
 }
 
 #agenda {
-    background-color: rgba(212, 212, 212, 0.753);
+    background-color: #f55b08d0;
     display: block;
     height: 40vh;
     line-height: 3em;
     padding-top: 5vh;
 }
-#imgPar {
+#partenaires section img {
     width: 100%;
 }
 #faireDon {
     width: 35em;
     margin-left: 20em;
 }
+#merci {
+    width: 100%;
+}
 
+.partenaires {
+    width: 100%;
+}
 footer {
     height: 40vh;
     width: 100%;
